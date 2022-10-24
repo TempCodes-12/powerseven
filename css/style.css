@@ -156,7 +156,14 @@ a,
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
-
+.logoimg {
+     height: 200px;
+     width: 200px;
+}
+.minilogo {
+     height: 40px;
+     width: 40px;
+}
 img {
      max-width: 100%;
      height: auto;
@@ -340,7 +347,7 @@ ul.social_icon_top li a:hover {
 }
 
 .logo a {
-     font-size: 30px;
+     font-size: 25px;
      line-height: 25px;
      color: #161825;
      font-weight: bold;
