@@ -157,8 +157,8 @@ a,
      transition: all .3s ease-in-out;
 }
 .logoimg {
-     height: 100px;
-     width: 100px;
+     height: 70px;
+     width: 70px;
 }
 .minilogo {
      height: 40px;
@@ -368,9 +368,9 @@ ul.social_icon_top li a:hover {
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 15px 25px;
      color: #161825;
-     font-size: 16px;
+     font-size: 12px;
      line-height: 20px;
-     font-weight: 500;
+     font-weight: 600;
      text-transform: uppercase;
 }
 
@@ -411,7 +411,7 @@ ul.search li a:hover {
 
 .full_bg {
      background: url(../images/banner.jpg);
-     background-size: 100% 100%;
+     background-size: cover;
      background-position: center;
      background-repeat: no-repeat;
 }
