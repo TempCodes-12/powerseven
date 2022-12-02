@@ -160,10 +160,7 @@ a,
      height: 70px;
      width: 70px;
 }
-.minilogo {
-     height: 40px;
-     width: 40px;
-}
+
 img {
      max-width: 100%;
      height: auto;
@@ -306,7 +303,7 @@ ul.contat_infoma li a {
 }
 
 ul.contat_infoma li a:hover {
-     color: #fe9901;
+     color: var(--yellow);
 }
 
 ul.social_icon {
@@ -336,7 +333,7 @@ ul.social_icon_top li a {
 }
 
 ul.social_icon_top li a:hover {
-     color: #fe9901;
+     color: var(--yellow);
 }
 
 .header_bottom {
@@ -366,9 +363,9 @@ ul.social_icon_top li a:hover {
 }
 
 .navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 15px 25px;
+     padding: 15px 20px;
      color: #161825;
-     font-size: 12px;
+     font-size: 14px;
      line-height: 20px;
      font-weight: 600;
      text-transform: uppercase;
@@ -381,13 +378,14 @@ ul.social_icon_top li a:hover {
      border-radius: 6px;
 }
 
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
+.navigation.navbar-dark .navbar-nav .actives.nav-link,
 .navigation.navbar-dark .navbar-nav .nav-link.active,
 .navigation.navbar-dark .navbar-nav .nav-link.show,
 .navigation.navbar-dark .navbar-nav .show>.nav-link {
      background:  var(--blue);
      color: #fff;
      border-radius: 6px;
+     border: 3px;
 }
 
 .navbar-expand-md .navbar-nav {
@@ -404,6 +402,11 @@ ul.search li a {
 
 ul.search li a:hover {
      color: #161825;
+}
+
+.minilogo {
+     height: 60px;
+     width: 60px;
 }
 
 
@@ -780,7 +783,7 @@ ul.search li a:hover {
 }
 
 #awa_ho:hover.award_icon i {
-     background-color: #fe9901;
+     background-color: var(--yellow);
      transition: ease-in all 0.5s;
 }
 
@@ -823,7 +826,7 @@ ul.search li a:hover {
 }
 
 .staff_main {
-     background-color: #fff;
+     background-color: var(--blue);
      padding-top: 90px;
 }
 
@@ -893,7 +896,7 @@ ul.social_icon_staff li a:hover {
 /** contact section **/
 
 .contact {
-     background: #fff;
+     background: var(--blue);
      margin-top: 90px;
 }
 
@@ -903,7 +906,7 @@ ul.social_icon_staff li a:hover {
 
 .main_form {
      padding: 40px 80px;
-     background: #fff;
+     background: var(--yellow);
      box-shadow: 0 0 250px rgba(3, 3, 3, 0.15);
 }
 
@@ -948,7 +951,7 @@ ul.social_icon_staff li a:hover {
 }
 
 .main_form .send_btn:hover {
-     background-color: #fe9901;
+     background-color: var(--blue);
      transition: ease-in all 0.5s;
      color: #fff;
 }
