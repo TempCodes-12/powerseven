@@ -1092,6 +1092,7 @@ ul.social_icon_staff li a:hover {
      background: #161825;
      padding-top: 90px;
      text-align: center;
+     width: 100%;
 }
 
 .border_top1 {
@@ -1282,4 +1283,9 @@ ul.insta li {
 .feed {
      max-width: 100%;
      height: 100px;
+}
+
+
+footer {
+     width: 100%;
 }
