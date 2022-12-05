@@ -593,7 +593,6 @@ ul.search li a:hover {
 
 .about {
      background-color: #fff;
-     padding-top: 90px;
 }
 
 .about .titlepage {
@@ -745,6 +744,32 @@ ul.search li a:hover {
 
 
 /** choose section **/
+.choose .titlepage {
+     max-width: 666px;
+     float: right;
+     width: 100%;
+     text-align: left;
+     padding-bottom: 0;
+}
+
+.choose .titlepage span {
+     font-family: 'Raleway', sans-serif;
+     padding-bottom: 60px;
+     padding-top: 40px;
+}
+
+.choose {
+     padding-right: 40px;
+     padding-left: 55px;
+}
+
+.choose_img figure {
+     margin: 0;
+}
+
+.choose_img figure img {
+     width: 100%;
+}
 
 .choose {
      background: url(../images/story.JPG);
@@ -801,7 +826,7 @@ ul.search li a:hover {
 }
 
 .award_icon strong {
-     color: #141414;
+     color: var(--blue);
      font-family: 'Raleway', sans-serif;
      text-transform: uppercase;
      font-weight: 700;
@@ -1089,7 +1114,7 @@ ul.social_icon_staff li a:hover {
 /** footer **/
 
 .footer {
-     background: #161825;
+     background: var(--blue);
      padding-top: 90px;
      text-align: center;
      width: 100%;
