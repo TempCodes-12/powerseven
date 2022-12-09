@@ -1,6 +1,8 @@
 /*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
-
-
+:root {
+    --blue: #1257ae;
+    --yellow: #e3fb09;
+  }
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media (min-width: 1200px) and (max-width: 1342px) {
@@ -214,15 +216,15 @@
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: var(--yellow);
     }
-    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .active.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
-    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+    .navigation.navbar-dark .navbar-nav .show.nav-link {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: var(--yellow);
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
@@ -373,15 +375,15 @@
     .navigation.navbar-dark .navbar-nav .nav-link:hover {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: var(--yellow);
     }
-    .navigation.navbar-dark .navbar-nav .active>.nav-link,
+    .navigation.navbar-dark .navbar-nav .active.nav-link,
     .navigation.navbar-dark .navbar-nav .nav-link.active,
     .navigation.navbar-dark .navbar-nav .nav-link.show,
-    .navigation.navbar-dark .navbar-nav .show>.nav-link {
+    .navigation.navbar-dark .navbar-nav .show.nav-link {
         background: transparent;
         border-radius: 0px;
-        color: #f4a111;
+        color: var(--yellow);
     }
     .navigation.navbar-dark .navbar-toggler-icon {
         background: url(../images/menu_icon.png);
