@@ -997,8 +997,40 @@ ul.social_icon_staff li a:hover {
 .padding_left0 {
      padding-left: 0;
 }
-
-
+.polaroid {
+     width: 90%;
+     background-color: var(--blue);
+     display: block;
+     align-content: center;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+     margin-bottom: 25px;
+     border-radius: 10px;
+   }
+   
+.pcontainer {
+     text-align: center;
+     padding: 10px 20px;
+}
+.grid-container {
+     display: grid;
+     gap: 5px;
+     grid-template-columns: auto auto auto;
+     padding: 10px;
+   }
+   
+.grid-item {
+     display: flex;
+     justify-content: center;
+     border: 0px;
+     font-size: 20px;
+     text-align: center;
+}
+.pbutton{
+     margin: 0px 5px 5px 5px;
+     background-color: var(--yellow);
+     width: 98%;
+     color: white;
+}
 /** end contact section **/
 
 
