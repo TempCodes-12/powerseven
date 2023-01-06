@@ -304,7 +304,7 @@ ul.contat_infoma li a {
      color: #fff;
 }
 
-ul.contat_infoma li a:hover {
+ul.contat_infoma li button:hover {
      color: var(--yellow);
 }
 
@@ -343,8 +343,7 @@ ul.social_icon_top li a:hover {
      justify-content: center;
      align-items: center;
      background-color: var(--yellow);
-     height: 100px;
-     padding: 20px 25px;
+     height: 100px; 
      width: 100%;
 }
 
@@ -484,7 +483,7 @@ ul.search li a:hover {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: var(--blue);
+     background: var(--yellow);
      color: #fff;
 }
 
@@ -763,7 +762,7 @@ ul.search li a:hover {
 
 .choose .titlepage span {
      font-family: 'Raleway', sans-serif;
-     padding-bottom: 60px;
+     padding-bottom: 40px;
      padding-top: 40px;
 }
 
@@ -786,7 +785,6 @@ ul.search li a:hover {
      background-position: center;
      background-repeat: no-repeat;
      padding: 60px 0;
-     margin-top: 90px;
 }
 
 .choose .titlepage {
@@ -931,12 +929,16 @@ ul.social_icon_staff li a:hover {
 
 .contact {
      background: #fff;
-     margin-top: 90px;
+     padding-top: 90px;
 }
 
-.contact .titlepage {
-     text-align: left;
-}
+.contacttitle {
+     font-size: 40px;
+     color: #1c1c1c;
+     line-height: 40px;
+     font-weight: 700;
+     padding: 0;
+} 
 
 .main_form {
      padding: 40px 80px;
@@ -1011,6 +1013,8 @@ ul.social_icon_staff li a:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
      margin-bottom: 25px;
      border-radius: 10px;
+     max-width: 400px;
+     margin-top: 40px;
 }
 
 .pcontainer {
@@ -1023,6 +1027,7 @@ ul.social_icon_staff li a:hover {
      gap: 5px;
      grid-template-columns: auto auto auto;
      padding: 10px;
+     margin-top: 40px;
 }
 
 .grid-item {
@@ -1031,6 +1036,14 @@ ul.social_icon_staff li a:hover {
      border: 0px;
      font-size: 20px;
      text-align: center;
+     max-width: 500px;
+     width: 500px;
+     justify-content: center;
+}
+
+.map{
+     padding: 10px 10px 10px 10px;
+     max-width: 500px;
 }
 
 .pbutton {
@@ -1038,6 +1051,10 @@ ul.social_icon_staff li a:hover {
      background-color: var(--yellow);
      width: 98%;
      color: white;
+}
+
+.pbutton:hover {
+     color: var(--blue);
 }
 
 /** end contact section **/
@@ -1282,7 +1299,6 @@ ul.insta li {
 }
 
 .many {
-     display: inline-block;
      color: #fff;
      font-size: 17px;
      line-height: 32px;
@@ -1326,7 +1342,7 @@ ul.insta li {
 }
 
 .back_re {
-     background-color: #c97a05;
+     background-color: var(--blue);
 }
 
 .back_re .title {
