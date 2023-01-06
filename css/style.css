@@ -484,7 +484,7 @@ ul.search li a:hover {
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
      background: var(--yellow);
-     color: #fff;
+     color: var(--blue);
 }
 
 #myCarousel .carousel-control-prev {
@@ -730,8 +730,8 @@ ul.search li a:hover {
 #proj .carousel-control-next:hover,
 #proj .carousel-control-prev:focus,
 #proj .carousel-control-next:focus {
-     background: #fe9901;
-     color: #fff;
+     background: var(--yellow);
+     color: var(--blue);
 }
 
 #proj .carousel-control-prev {
