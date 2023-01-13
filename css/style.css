@@ -1220,7 +1220,7 @@ ul.social_icon_staff li a:hover {
      text-align: left;
      color: #fff;
      margin-bottom: 15px;
-     display: table;
+     display: flex;
 }
 
 .logo_bottom {
