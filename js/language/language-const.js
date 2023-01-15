@@ -60,10 +60,10 @@ const data = {
       services: {
         rcc: 'RC ဆောက်လုပ်ရေး',
         roadWay: 'လမ်း၊တံတား ဆောက်လုပ်ရေး',
-        steelStructure: 'Steel structure ဆောက်လုပ်ရေး',
-        steelFabriction: 'Steel structure ထုတ်လုပ်၊တပ်ဆင်ရေး',
-        ppgiAndGiRollForming: 'သွပ်ပြား၊စီချန်နယ်၊Deck Sheet ထုတ်လုပ်ဖြန့်ချီရေး',
-        machineryRentalAndEarthworks: 'စက်၊ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'
+        steelStructure: 'Steel Structure ဆောက်လုပ်ရေး',
+        steelFabriction: 'Steel Structure ထုတ်လုပ်၊တပ်ဆင်ရေး',
+        ppgiAndGiRollForming: 'သွပ်ပြား၊ စီချန်နယ်၊ Decking Sheet ထုတ်လုပ်ဖြန့်ချီရေး',
+        machineryRentalAndEarthworks: 'စက်၊ ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'
       }
     },
     english: {
