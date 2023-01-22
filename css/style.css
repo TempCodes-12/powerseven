@@ -661,6 +661,7 @@ ul.search li a:hover {
      position: absolute;
      bottom: 0;
      height: 123px;
+     width: 100%;
      overflow: hidden;
      padding: 20px 20px 20px 20px;
      margin-right: 15px;
@@ -684,14 +685,14 @@ ul.search li a:hover {
 .project_text:hover {
      cursor: pointer;
      background-color: #fffffff2;
-     height: 303px;
+     height: 260px;
+     width: 100%;
      transition: ease-in all 0.5s;
 }
 
 #pro_ho:hover.project_text h3 {
      color: #1b1a1a;
      transition: ease-in all 0.5s;
-     padding-top: 20px;
 }
 
 .project_text h3 {
@@ -699,9 +700,9 @@ ul.search li a:hover {
      color: var(--yellow);
      text-align: left;
      display: block;
-     font-size: 28px;
+     font-size: 21px;
      font-weight: 500;
-     padding-bottom: 35px;
+     padding-bottom: 25px;
      font-family: 'Raleway', sans-serif;
 }
 
