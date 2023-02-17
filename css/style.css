@@ -1307,6 +1307,7 @@ ul.insta li {
      line-height: 32px;
      font-weight: normal;
      text-align: left;
+     width: fit-content;
 }
 
 .copyright p {
@@ -1329,7 +1330,7 @@ ul.insta li {
 }
 
 .footerlogo {
-     width: 150px;
+     width: 200px;
      display: flex;
      margin: auto;
 }
