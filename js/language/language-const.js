@@ -64,6 +64,12 @@ const data = {
         steelFabriction: 'Steel Structure ထုတ်လုပ်၊တပ်ဆင်ရေး',
         ppgiAndGiRollForming: 'သွပ်ပြား၊ စီချန်နယ်၊ Decking Sheet ထုတ်လုပ်ဖြန့်ချီရေး',
         machineryRentalAndEarthworks: 'စက်၊ ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'
+      },
+      footeraddress: {
+        factory: 'နန်းရှေ့၊ 19လမ်း ရေနီမြောင်း၊ မြို့ပတ်လမ်း ကုန်းတန်းလေးရွာထိပ် ၊ ဘူးကုန်းရပ်ကွက်၊ မန္တလေးမြို့။',
+        headquater: 'နန်းရှေ့၊ 19လမ်း၊ရေနီမြောင်းမီးပွိုင့်အနီး၊ နန်းရှေ့ မနိုင်၊ မန်းစံ အိမ်ဆောက်ပစ္စည်းရောင်းဝယ်ရေး။မန္တလေးမြို့။',
+        pyinoolwin: 'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
+        kalay: 'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။'
       }
     },
     english: {
@@ -88,6 +94,12 @@ const data = {
         steelFabriction: 'Steel Fabrication',
         ppgiAndGiRollForming: 'PPGI/GL and GI Roll-Forming',
         machineryRentalAndEarthworks: 'Machinery Rental and Earthworks'
+      },
+      footeraddress: {
+        factory: 'Nan Shae, 19st Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu kone Ward, Mandalay',
+        headquater: 'Nan Shae (19) st, Near Yay Ni Myaung Point,Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
+        pyinoolwin: 'Express Terminal Roll - (B6), (3-4), Nawarat St X Khwar Nyo St, Near Fire Station, Ward (10), Pyin Oo Lwin',
+        kalay: 'Sagar Hla Damar Yone North,6/26 Aung Mingalar Ward,Ba Yint Naung Road, Kalay',
       }
     }
   }

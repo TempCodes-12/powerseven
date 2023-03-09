@@ -28,7 +28,12 @@ const data = {
       values: 'တန်ဖိုးများ',
       valuesContent: ['အဖွဲ့အစည်း','အသင်းအဖွဲ့လိုက်လုပ်ကိုင်မှု','ယုံကြည်မှု','သမာဓိရှိမှု','ဆန်းသစ်တီထွင်မှု','ရည်ရှည်တည်တံ့ခိုင်မြဲမှုအဖွဲ့အစည်း'],
       services: 'ဝန်ဆောင်မှုများ',
-      servicesContent: ['RC ဆောက်လုပ်ရေး','လမ်း၊တံတား ဆောက်လုပ်ရေး','Steel structure ဆောက်လုပ်ရေး','Steel structure ထုတ်လုပ်၊တပ်ဆင်ရေး','သွပ်ပြား၊စီချန်နယ်၊Deck Sheet ထုတ်လုပ်ဖြန့်ချီရေး','စက်၊ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း']
+      servicesContent: ['RC ဆောက်လုပ်ရေး','လမ်း၊တံတား ဆောက်လုပ်ရေး','Steel structure ဆောက်လုပ်ရေး','Steel structure ထုတ်လုပ်၊တပ်ဆင်ရေး','သွပ်ပြား၊စီချန်နယ်၊Deck Sheet ထုတ်လုပ်ဖြန့်ချီရေး','စက်၊ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'],
+      footeraddress: ['နန်းရှေ့၊ 19လမ်း ရေနီမြောင်း၊ မြို့ပတ်လမ်း ကုန်းတန်းလေးရွာထိပ် ၊ ဘူးကုန်းရပ်ကွက်၊ မန္တလေးမြို့။',
+      'နန်းရှေ့၊ 19လမ်း၊ရေနီမြောင်းမီးပွိုင့်အနီး၊ နန်းရှေ့ မနိုင်၊ မန်းစံ အိမ်ဆောက်ပစ္စည်းရောင်းဝယ်ရေး။မန္တလေးမြို့။',
+      'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
+      'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။'
+      ]
     },
     english: {
       vision: 'vision',
@@ -61,6 +66,12 @@ const data = {
         'Steel Fabrication',
         'Steel Fabrication',
         'Machinery Rental and Earthworks'
+      ],
+      footeraddress: [
+        'Nan Shae, 19st Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu kone Ward, Mandalay',
+        'Nan Shae (19) st, Near Yay Ni Myaung Point,Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
+        'Express Terminal Roll - (B6), (3-4), Nawarat St X Khwar Nyo St, Near Fire Station, Ward (10), Pyin Oo Lwin',
+        'Sagar Hla Damar Yone North,6/26 Aung Mingalar Ward,Ba Yint Naung Road, Kalay',
       ]
   }
 }
@@ -77,6 +88,7 @@ function changeLanguage(language) {
   const valueContent = document.getElementsByClassName('value');
   const services = document.getElementsByClassName('services');
   const serviceContent = document.getElementsByClassName('service');
+  const footeraddress = document.getElementsByClassName('footeraddress')
 
   if(language === 'myanmar') {
     for (let index = 0; index < navbar.length; index++) {
@@ -100,6 +112,10 @@ function changeLanguage(language) {
     for (let index = 0; index < valueContent.length; index++) {
       serviceContent[index].textContent = data.content.myanmar.servicesContent[index];
     }
+    footeraddress[0].textContent = data.content.myanmar.footeraddress; 
+    for (let index = 0; index < valueContent.length; index++) {
+      footeraddress[index].textContent = data.content.myanmar.footeraddress[index];
+    }
   } 
   if(language === 'english')  {
     for (let index = 0; index < navbar.length; index++) {
@@ -122,6 +138,10 @@ function changeLanguage(language) {
     services[0].textContent = data.content.english.services; 
     for (let index = 0; index < valueContent.length; index++) {
       serviceContent[index].textContent = data.content.english.servicesContent[index];
+    }
+    footeraddress[0].textContent = data.content.english.footeraddress; 
+    for (let index = 0; index < valueContent.length; index++) {
+      footeraddress[index].textContent = data.content.english.footeraddress[index];
     }
   }
 }
