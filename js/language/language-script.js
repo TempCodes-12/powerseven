@@ -50,6 +50,10 @@ const data = {
         'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
         'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။',
       ],
+      motto: ['စိတ်ချလုံခြုံမှုနဲ့ အရည်အသွေးပိုင်း', 'အာမခံချက်ပေးနိုင်တဲ့ Power Seven',
+        'နွေးထွေးလုံခြုံမှုရဲ့ အနှစ်သာရကို', 'Power Seven နဲ့အတူ ခံစားလိုက်ပါ',
+        'ရာသီမရွေး ဥတုမရွေး', 'သင်နဲ့အတူရှိနေမယ့် Power Seven'
+      ],
       contacttitle: ['ဆက်သွယ်​ရန်'],
     },
     english: {
@@ -101,12 +105,16 @@ const data = {
       'Pyin Oo Lwin', 'Express Terminal Roll - (B6), (3-4), Nawarat St X Khwar Nyo St, Near Fire Station, Ward (10),Pyin Oo Lwin',
       'Mandalay', 'Nan Shae, 19st Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu kone Ward, Mandalay',
     ],
+    motto: ['Safety & Quality', 'Are The Things That Power Seven Can Guarantee!',
+      'Enjoy The Essence Of', 'Warmth & Comfort With Power Seven',
+      'No Matter The Season Or The Weather,', 'Power Seven Is With You Forever!',
+    ],
     footeraddress: [
       'Nan Shae, 19 Street Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu Kone Ward, Mandalay',
       'Nan Shae 19 Street, Near Yay Ni Myaung Point, Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
       'Express Terminal Roll - (B6), (3-4), Nawarat Street, X Khwar Nyo Street, Near Fire Station, Ward (10), Pyin Oo Lwin',
       'Sagar Hla Damar Yone North, 6/26 Aung Mingalar Ward, Ba Yint Naung Road, Kalay'
-    ]
+    ],
   }
 }
 
@@ -127,6 +135,7 @@ function changeLanguage(language) {
   const contacttitle = document.getElementsByClassName('contacttitle');
   const contactcard = document.getElementsByClassName('contactcard');
   const product = document.getElementsByClassName('product');
+  const motto = document.getElementsByClassName('motto');
 
 
   if (language === 'myanmar') {
@@ -171,6 +180,10 @@ function changeLanguage(language) {
     for (let index = 0; index < product.length; index++) {
       product[index].textContent = data.content.myanmar.product[index];
     }
+    motto[0].textContent = data.content.myanmar.motto;
+    for (let index = 0; index < motto.length; index++) {
+      motto[index].textContent = data.content.myanmar.motto[index];
+    }
   }
   if (language === 'english') {
     for (let index = 0; index < navbar.length; index++) {
@@ -213,6 +226,10 @@ function changeLanguage(language) {
     product[0].textContent = data.content.english.product;
     for (let index = 0; index < product.length; index++) {
       product[index].textContent = data.content.english.product[index];
+    }
+    motto[0].textContent = data.content.english.motto;
+    for (let index = 0; index < motto.length; index++) {
+      motto[index].textContent = data.content.english.motto[index];
     }
 
   }
