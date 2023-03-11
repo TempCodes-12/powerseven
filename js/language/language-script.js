@@ -1,7 +1,7 @@
 const data = {
   menu: {
-    myanmar: ['မူလ​','ကတိနှင့်တာဝန်','ထုတ်ကုန်​ပစ္စည်း​များ','ကျွန်ုပ်​တို့အကြာင်း','တန်ဖိုးများ','ဝန်ဆောင်မှုများ','ဆက်သွယ်​ရန်​'],
-    english: ['home','vision & mission','products','our story','value','services','contact us']
+    myanmar: ['မူလ​', 'ကတိနှင့်တာဝန်', 'ထုတ်ကုန်​ပစ္စည်း​များ', 'ကျွန်ုပ်​တို့အကြာင်း', 'တန်ဖိုးများ', 'ဝန်ဆောင်မှုများ', 'ဆက်သွယ်​ရန်​'],
+    english: ['home', 'vision & mission', 'products', 'our story', 'value', 'services', 'contact us']
   },
   content: {
     myanmar: {
@@ -26,17 +26,34 @@ const data = {
         ဖြန့်ဖြူးရောင်းချလျှက်ရှိသည်။`,
       ],
       values: 'တန်ဖိုးများ',
-      valuesContent: ['အဖွဲ့အစည်း','အသင်းအဖွဲ့လိုက်လုပ်ကိုင်မှု','ယုံကြည်မှု','သမာဓိရှိမှု','ဆန်းသစ်တီထွင်မှု','ရည်ရှည်တည်တံ့ခိုင်မြဲမှုအဖွဲ့အစည်း'],
+      valuesContent: ['အဖွဲ့အစည်း', 'အသင်းအဖွဲ့လိုက်လုပ်ကိုင်မှု', 'ယုံကြည်မှု', 'သမာဓိရှိမှု', 'ဆန်းသစ်တီထွင်မှု', 'ရည်ရှည်တည်တံ့ခိုင်မြဲမှုအဖွဲ့အစည်း'],
       services: 'ဝန်ဆောင်မှုများ',
-      servicesContent: ['RC ဆောက်လုပ်ရေး','လမ်း၊တံတား ဆောက်လုပ်ရေး','Steel structure ဆောက်လုပ်ရေး','Steel structure ထုတ်လုပ်၊တပ်ဆင်ရေး','သွပ်ပြား၊စီချန်နယ်၊Deck Sheet ထုတ်လုပ်ဖြန့်ချီရေး','စက်၊ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'],
-      footeraddress: ['နန်းရှေ့၊ 19လမ်း ရေနီမြောင်း၊ မြို့ပတ်လမ်း ကုန်းတန်းလေးရွာထိပ် ၊ ဘူးကုန်းရပ်ကွက်၊ မန္တလေးမြို့။',
-      'နန်းရှေ့၊ 19လမ်း၊ရေနီမြောင်းမီးပွိုင့်အနီး၊ နန်းရှေ့ မနိုင်၊ မန်းစံ အိမ်ဆောက်ပစ္စည်းရောင်းဝယ်ရေး။မန္တလေးမြို့။',
-      'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
-      'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။'
-      ]
+      servicesContent: ['RC ဆောက်လုပ်ရေး', 'လမ်း၊တံတား ဆောက်လုပ်ရေး', 'Steel structure ဆောက်လုပ်ရေး', 'Steel structure ထုတ်လုပ်၊တပ်ဆင်ရေး', 'သွပ်ပြား၊စီချန်နယ်၊Deck Sheet ထုတ်လုပ်ဖြန့်ချီရေး', 'စက်၊ယန္တရားငှားယမ်းခြင်းနှင့် မြေသားလုပ်ငန်း'],
+      footerph: [
+        '(+၉၅) ၀၉-၄၀၄၀၄၅၂၇၇',
+        '(+၉၅) ၀၉-၄၀၅၀၆၀၂၄၄',
+        '(+၉၅) ၀၉-၆၆၁၁၃၉၈၃၃',
+        '(+၉၅) ၀၉-၇၈၅၁၉၀၅၆၇',
+        '(+၉၅) ၀၉-၄၀၄၀၄၅၂၇၇',
+        '(+၉၅) ၀၉-၄၀၅၀၆၀၂၄၄',
+        '(+၉၅) ၀၉-၇၈၅၁၉၀၅၆၇',
+        '(+၉၅) ၀၉-၄၀၃၃၄၃၃၈၉',
+      ],
+      product: ['ထုတ်ကုန်​ပစ္စည်း​များ'],
+      contactcard: ['မန္တလေးမြို့', 'နန်းရှေ့၊ ၁၉ လမ်း၊ရေနီမြောင်းမီးပွိုင့်အနီး၊ နန်းရှေ့ မနိုင်၊ မန်းစံ အိမ်ဆောက်ပစ္စည်းရောင်းဝယ်ရေး။မန္တလေးမြို့။',
+        'ကလေးမြို့', 'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။',
+        'ပြင်ဦးလွင်မြို့', 'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
+        'မန္တလေးမြို့', 'နန်းရှေ့၊ ၁၉ လမ်း ရေနီမြောင်း၊ မြို့ပတ်လမ်း ကုန်းတန်းလေးရွာထိပ် ၊ ဘူးကုန်းရပ်ကွက်၊ မန္တလေးမြို့။',
+      ],
+      footeraddress: ['နန်းရှေ့၊ ၁၉ လမ်း ရေနီမြောင်း၊ မြို့ပတ်လမ်း ကုန်းတန်းလေးရွာထိပ် ၊ ဘူးကုန်းရပ်ကွက်၊ မန္တလေးမြို့။',
+        'နန်းရှေ့၊ ၁၉ လမ်း၊ရေနီမြောင်းမီးပွိုင့်အနီး၊ နန်းရှေ့ မနိုင်၊ မန်းစံ အိမ်ဆောက်ပစ္စည်းရောင်းဝယ်ရေး။မန္တလေးမြို့။',
+        'ကားကြီးကွင်း တိုက်ခန်း -(B6)၊(ဂ-ဃ)၊ နဝရတ်လမ်း X ခွာညိုလမ်း၊ ခရိုင်မီးသတ်အနီး၊ ရပ်ကွက်ကြီး(၁၀)၊ပြင်ဦးလွင်မြို့။',
+        'စကားလှဓမ္မာရုံမြောက်ဘက်၊ ၆/၂၆ အောင်မင်္ဂလာရပ်ကွက်၊ ဘုရင့်နောင်လမ်း၊ ကလေးမြို့။',
+      ],
+      contacttitle: ['ဆက်သွယ်​ရန်'],
     },
     english: {
-      vision: 'vision',
+      vision: 'Vision',
       visionContent: 'To be the supreme lead in Myanmar’s RC and Steel Structure construction projects, in the future.',
       mission: 'Our Mission',
       missionContent: [
@@ -55,24 +72,41 @@ const data = {
         ` C- Purlin and Deck Sheet`,
         ` Capacity :2000MT/month`,
       ],
-      },
-      values: 'Values',
-      valuesContent: ['people','teamwork','trust','integrity','innovation','sustainability'],
-      services: 'services',
-      servicesContent: [
-        'R.C.C Construction',
-        'Roadway Construction',
-        'Steel Structure Construction',
-        'Steel Fabrication',
-        'Steel Fabrication',
-        'Machinery Rental and Earthworks'
-      ],
-      footeraddress: [
-        'Nan Shae, 19st Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu kone Ward, Mandalay',
-        'Nan Shae (19) st, Near Yay Ni Myaung Point,Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
-        'Express Terminal Roll - (B6), (3-4), Nawarat St X Khwar Nyo St, Near Fire Station, Ward (10), Pyin Oo Lwin',
-        'Sagar Hla Damar Yone North,6/26 Aung Mingalar Ward,Ba Yint Naung Road, Kalay',
-      ]
+    },
+    values: 'Values',
+    valuesContent: ['people', 'teamwork', 'trust', 'integrity', 'innovation', 'sustainability'],
+    services: 'Services',
+    servicesContent: [
+      'R.C.C Construction',
+      'Roadway Construction',
+      'Steel Structure Construction',
+      'Steel Fabrication',
+      'Steel Fabrication',
+      'Machinery Rental and Earthworks'
+    ],
+    footerph: [
+      '(+95) 09-404045277',
+      '(+95) 09-405060264',
+      '(+95) 09-661139833',
+      '(+95) 09-785190567',
+      '(+95) 09-404045277',
+      '(+95) 09-405060264',
+      '(+95) 09-785190567',
+      '(+95) 09-403343897'
+    ],
+    product: 'Products',
+    contacttitle: ['Contact Us'],
+    contactcard: ['Mandalay', 'Nan Shae (19) Street, Near Yay Ni Myaung Point, Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
+      'Kalay', 'Sagar Hla Damar Yone North,6/26 Aung Mingalar Ward, Ba Yint Naung Road, Kalay',
+      'Pyin Oo Lwin', 'Express Terminal Roll - (B6), (3-4), Nawarat St X Khwar Nyo St, Near Fire Station, Ward (10),Pyin Oo Lwin',
+      'Mandalay', 'Nan Shae, 19st Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu kone Ward, Mandalay',
+    ],
+    footeraddress: [
+      'Nan Shae, 19 Street Yay Ni Myaung, Myo Pat Lann, Kone Tann Layy Village, Buu Kone Ward, Mandalay',
+      'Nan Shae 19 Street, Near Yay Ni Myaung Point, Nan Shae Ma Naing, Man San Eain Housing, Mandalay',
+      'Express Terminal Roll - (B6), (3-4), Nawarat Street, X Khwar Nyo Street, Near Fire Station, Ward (10), Pyin Oo Lwin',
+      'Sagar Hla Damar Yone North, 6/26 Aung Mingalar Ward, Ba Yint Naung Road, Kalay'
+    ]
   }
 }
 
@@ -88,9 +122,14 @@ function changeLanguage(language) {
   const valueContent = document.getElementsByClassName('value');
   const services = document.getElementsByClassName('services');
   const serviceContent = document.getElementsByClassName('service');
-  const footeraddress = document.getElementsByClassName('footeraddress')
+  const footeraddress = document.getElementsByClassName('footeraddress');
+  const footerph = document.getElementsByClassName('footerph');
+  const contacttitle = document.getElementsByClassName('contacttitle');
+  const contactcard = document.getElementsByClassName('contactcard');
+  const product = document.getElementsByClassName('product');
 
-  if(language === 'myanmar') {
+
+  if (language === 'myanmar') {
     for (let index = 0; index < navbar.length; index++) {
       navbar[index].textContent = data.menu.myanmar[index];
     }
@@ -104,20 +143,36 @@ function changeLanguage(language) {
     for (let index = 0; index < ourStoryContent.length; index++) {
       ourStoryContent[index].textContent = data.content.myanmar.ourStoryContent[index];
     }
-    values[0].textContent = data.content.myanmar.values; 
+    values[0].textContent = data.content.myanmar.values;
     for (let index = 0; index < valueContent.length; index++) {
       valueContent[index].textContent = data.content.myanmar.valuesContent[index];
     }
-    services[0].textContent = data.content.myanmar.services; 
+    services[0].textContent = data.content.myanmar.services;
     for (let index = 0; index < valueContent.length; index++) {
       serviceContent[index].textContent = data.content.myanmar.servicesContent[index];
     }
-    footeraddress[0].textContent = data.content.myanmar.footeraddress; 
-    for (let index = 0; index < valueContent.length; index++) {
+    footeraddress[0].textContent = data.content.myanmar.footeraddress;
+    for (let index = 0; index < footeraddress.length; index++) {
       footeraddress[index].textContent = data.content.myanmar.footeraddress[index];
     }
-  } 
-  if(language === 'english')  {
+    footerph[0].textContent = data.content.myanmar.footerph;
+    for (let index = 0; index < footerph.length; index++) {
+      footerph[index].textContent = data.content.myanmar.footerph[index];
+    }
+    contacttitle[0].textContent = data.content.myanmar.contacttitle;
+    for (let index = 0; index < contacttitle.length; index++) {
+      contacttitle[index].textContent = data.content.myanmar.contacttitle[index];
+    }
+    contactcard[0].textContent = data.content.myanmar.contactcard;
+    for (let index = 0; index < contactcard.length; index++) {
+      contactcard[index].textContent = data.content.myanmar.contactcard[index];
+    }
+    product[0].textContent = data.content.myanmar.product;
+    for (let index = 0; index < product.length; index++) {
+      product[index].textContent = data.content.myanmar.product[index];
+    }
+  }
+  if (language === 'english') {
     for (let index = 0; index < navbar.length; index++) {
       navbar[index].textContent = data.menu.english[index];
     }
@@ -131,17 +186,34 @@ function changeLanguage(language) {
     for (let index = 0; index < ourStoryContent.length; index++) {
       ourStoryContent[index].textContent = data.content.english.ourStoryContent[index];
     }
-    values[0].textContent = data.content.english.values; 
+    values[0].textContent = data.content.english.values;
     for (let index = 0; index < valueContent.length; index++) {
       valueContent[index].textContent = data.content.english.valuesContent[index];
     }
-    services[0].textContent = data.content.english.services; 
+    services[0].textContent = data.content.english.services;
     for (let index = 0; index < valueContent.length; index++) {
       serviceContent[index].textContent = data.content.english.servicesContent[index];
     }
-    footeraddress[0].textContent = data.content.english.footeraddress; 
-    for (let index = 0; index < valueContent.length; index++) {
+    footeraddress[0].textContent = data.content.english.footeraddress;
+    for (let index = 0; index < footeraddress.length; index++) {
       footeraddress[index].textContent = data.content.english.footeraddress[index];
     }
+    footerph[0].textContent = data.content.english.footerph;
+    for (let index = 0; index < footerph.length; index++) {
+      footerph[index].textContent = data.content.english.footerph[index];
+    }
+    contacttitle[0].textContent = data.content.english.contacttitle;
+    for (let index = 0; index < contacttitle.length; index++) {
+      contacttitle[index].textContent = data.content.english.contacttitle[index];
+    }
+    contactcard[0].textContent = data.content.english.contactcard;
+    for (let index = 0; index < contactcard.length; index++) {
+      contactcard[index].textContent = data.content.english.contactcard[index];
+    }
+    product[0].textContent = data.content.english.product;
+    for (let index = 0; index < product.length; index++) {
+      product[index].textContent = data.content.english.product[index];
+    }
+
   }
 }
